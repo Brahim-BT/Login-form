@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    border-radius: 15px;
+    padding: 100px 0px 100px 0px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 25%;
+    width: 750px;
+    color: #fff;
+    background: #2c3e50;
+}
+
+form h1 {
+    text-transform: uppercase;
+    font-weight: 200px;
+}
+
+form input {
+    margin-bottom: 5%;
+    width: 350px;
+    height: 40px;
+    border: 3px solid #3498db;
+    border-radius: 25px;
+    background: rgb(0, 0, 0, 0);
+    color: #fff;
+    text-align: center;
+    transition: 0.25s;
+}
+
+form button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid #2980b9;
+    border-radius: 25px;
+    background: rgb(0, 0, 0, 0);
+    transition: 0s;
+}
+
+form button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form input:focus {
+    width: 400px;
+    border-color: #e84118;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #00a8ff, #273c75);
+    border: none;
+}
